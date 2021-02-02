@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30FF69025C92A6B00A0538D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B30FF68F25C92A6B00A0538D /* AppDelegate.m */; };
+		B30FF69325C92A6B00A0538D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B30FF69225C92A6B00A0538D /* SceneDelegate.m */; };
+		B30FF69625C92A6B00A0538D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B30FF69525C92A6B00A0538D /* ViewController.m */; };
+		B30FF69925C92A6B00A0538D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30FF69725C92A6B00A0538D /* Main.storyboard */; };
+		B30FF69B25C92A6D00A0538D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30FF69A25C92A6D00A0538D /* Assets.xcassets */; };
+		B30FF69E25C92A6D00A0538D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30FF69C25C92A6D00A0538D /* LaunchScreen.storyboard */; };
+		B30FF6A125C92A6D00A0538D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B30FF6A025C92A6D00A0538D /* main.m */; };
+		B30FF6AB25C92A6D00A0538D /* TTSBackPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30FF6AA25C92A6D00A0538D /* TTSBackPlayerTests.m */; };
+		B30FF6B625C92A6D00A0538D /* TTSBackPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30FF6B525C92A6D00A0538D /* TTSBackPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B30FF6A725C92A6D00A0538D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B30FF68325C92A6B00A0538D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30FF68A25C92A6B00A0538D;
+			remoteInfo = TTSBackPlayer;
+		};
+		B30FF6B225C92A6D00A0538D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B30FF68325C92A6B00A0538D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30FF68A25C92A6B00A0538D;
+			remoteInfo = TTSBackPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B30FF68B25C92A6B00A0538D /* TTSBackPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSBackPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30FF68E25C92A6B00A0538D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B30FF68F25C92A6B00A0538D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B30FF69125C92A6B00A0538D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B30FF69225C92A6B00A0538D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B30FF69425C92A6B00A0538D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B30FF69525C92A6B00A0538D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B30FF69825C92A6B00A0538D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B30FF69A25C92A6D00A0538D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30FF69D25C92A6D00A0538D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B30FF69F25C92A6D00A0538D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30FF6A025C92A6D00A0538D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B30FF6A625C92A6D00A0538D /* TTSBackPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSBackPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30FF6AA25C92A6D00A0538D /* TTSBackPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSBackPlayerTests.m; sourceTree = "<group>"; };
+		B30FF6AC25C92A6D00A0538D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30FF6B125C92A6D00A0538D /* TTSBackPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSBackPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30FF6B525C92A6D00A0538D /* TTSBackPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSBackPlayerUITests.m; sourceTree = "<group>"; };
+		B30FF6B725C92A6D00A0538D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30FF68825C92A6B00A0538D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30FF6A325C92A6D00A0538D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30FF6AE25C92A6D00A0538D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30FF68225C92A6B00A0538D = {
+			isa = PBXGroup;
+			children = (
+				B30FF68D25C92A6B00A0538D /* TTSBackPlayer */,
+				B30FF6A925C92A6D00A0538D /* TTSBackPlayerTests */,
+				B30FF6B425C92A6D00A0538D /* TTSBackPlayerUITests */,
+				B30FF68C25C92A6B00A0538D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30FF68C25C92A6B00A0538D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30FF68B25C92A6B00A0538D /* TTSBackPlayer.app */,
+				B30FF6A625C92A6D00A0538D /* TTSBackPlayerTests.xctest */,
+				B30FF6B125C92A6D00A0538D /* TTSBackPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30FF68D25C92A6B00A0538D /* TTSBackPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B30FF68E25C92A6B00A0538D /* AppDelegate.h */,
+				B30FF68F25C92A6B00A0538D /* AppDelegate.m */,
+				B30FF69125C92A6B00A0538D /* SceneDelegate.h */,
+				B30FF69225C92A6B00A0538D /* SceneDelegate.m */,
+				B30FF69425C92A6B00A0538D /* ViewController.h */,
+				B30FF69525C92A6B00A0538D /* ViewController.m */,
+				B30FF69725C92A6B00A0538D /* Main.storyboard */,
+				B30FF69A25C92A6D00A0538D /* Assets.xcassets */,
+				B30FF69C25C92A6D00A0538D /* LaunchScreen.storyboard */,
+				B30FF69F25C92A6D00A0538D /* Info.plist */,
+				B30FF6A025C92A6D00A0538D /* main.m */,
+			);
+			path = TTSBackPlayer;
+			sourceTree = "<group>";
+		};
+		B30FF6A925C92A6D00A0538D /* TTSBackPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B30FF6AA25C92A6D00A0538D /* TTSBackPlayerTests.m */,
+				B30FF6AC25C92A6D00A0538D /* Info.plist */,
+			);
+			path = TTSBackPlayerTests;
+			sourceTree = "<group>";
+		};
+		B30FF6B425C92A6D00A0538D /* TTSBackPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B30FF6B525C92A6D00A0538D /* TTSBackPlayerUITests.m */,
+				B30FF6B725C92A6D00A0538D /* Info.plist */,
+			);
+			path = TTSBackPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B30FF68A25C92A6B00A0538D /* TTSBackPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30FF6BA25C92A6D00A0538D /* Build configuration list for PBXNativeTarget "TTSBackPlayer" */;
+			buildPhases = (
+				B30FF68725C92A6B00A0538D /* Sources */,
+				B30FF68825C92A6B00A0538D /* Frameworks */,
+				B30FF68925C92A6B00A0538D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSBackPlayer;
+			productName = TTSBackPlayer;
+			productReference = B30FF68B25C92A6B00A0538D /* TTSBackPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B30FF6A525C92A6D00A0538D /* TTSBackPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30FF6BD25C92A6D00A0538D /* Build configuration list for PBXNativeTarget "TTSBackPlayerTests" */;
+			buildPhases = (
+				B30FF6A225C92A6D00A0538D /* Sources */,
+				B30FF6A325C92A6D00A0538D /* Frameworks */,
+				B30FF6A425C92A6D00A0538D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30FF6A825C92A6D00A0538D /* PBXTargetDependency */,
+			);
+			name = TTSBackPlayerTests;
+			productName = TTSBackPlayerTests;
+			productReference = B30FF6A625C92A6D00A0538D /* TTSBackPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B30FF6B025C92A6D00A0538D /* TTSBackPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30FF6C025C92A6D00A0538D /* Build configuration list for PBXNativeTarget "TTSBackPlayerUITests" */;
+			buildPhases = (
+				B30FF6AD25C92A6D00A0538D /* Sources */,
+				B30FF6AE25C92A6D00A0538D /* Frameworks */,
+				B30FF6AF25C92A6D00A0538D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30FF6B325C92A6D00A0538D /* PBXTargetDependency */,
+			);
+			name = TTSBackPlayerUITests;
+			productName = TTSBackPlayerUITests;
+			productReference = B30FF6B125C92A6D00A0538D /* TTSBackPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B30FF68325C92A6B00A0538D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B30FF68A25C92A6B00A0538D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					B30FF6A525C92A6D00A0538D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B30FF68A25C92A6B00A0538D;
+					};
+					B30FF6B025C92A6D00A0538D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B30FF68A25C92A6B00A0538D;
+					};
+				};
+			};
+			buildConfigurationList = B30FF68625C92A6B00A0538D /* Build configuration list for PBXProject "TTSBackPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B30FF68225C92A6B00A0538D;
+			productRefGroup = B30FF68C25C92A6B00A0538D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B30FF68A25C92A6B00A0538D /* TTSBackPlayer */,
+				B30FF6A525C92A6D00A0538D /* TTSBackPlayerTests */,
+				B30FF6B025C92A6D00A0538D /* TTSBackPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30FF68925C92A6B00A0538D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30FF69E25C92A6D00A0538D /* LaunchScreen.storyboard in Resources */,
+				B30FF69B25C92A6D00A0538D /* Assets.xcassets in Resources */,
+				B30FF69925C92A6B00A0538D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30FF6A425C92A6D00A0538D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30FF6AF25C92A6D00A0538D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30FF68725C92A6B00A0538D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30FF69625C92A6B00A0538D /* ViewController.m in Sources */,
+				B30FF69025C92A6B00A0538D /* AppDelegate.m in Sources */,
+				B30FF6A125C92A6D00A0538D /* main.m in Sources */,
+				B30FF69325C92A6B00A0538D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30FF6A225C92A6D00A0538D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30FF6AB25C92A6D00A0538D /* TTSBackPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30FF6AD25C92A6D00A0538D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30FF6B625C92A6D00A0538D /* TTSBackPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B30FF6A825C92A6D00A0538D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30FF68A25C92A6B00A0538D /* TTSBackPlayer */;
+			targetProxy = B30FF6A725C92A6D00A0538D /* PBXContainerItemProxy */;
+		};
+		B30FF6B325C92A6D00A0538D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30FF68A25C92A6B00A0538D /* TTSBackPlayer */;
+			targetProxy = B30FF6B225C92A6D00A0538D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B30FF69725C92A6B00A0538D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30FF69825C92A6B00A0538D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B30FF69C25C92A6D00A0538D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30FF69D25C92A6D00A0538D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B30FF6B825C92A6D00A0538D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B30FF6B925C92A6D00A0538D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B30FF6BB25C92A6D00A0538D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S72MW545H;
+				INFOPLIST_FILE = TTSBackPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyk.TTSBackPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B30FF6BC25C92A6D00A0538D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S72MW545H;
+				INFOPLIST_FILE = TTSBackPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyk.TTSBackPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B30FF6BE25C92A6D00A0538D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S72MW545H;
+				INFOPLIST_FILE = TTSBackPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyk.TTSBackPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSBackPlayer.app/TTSBackPlayer";
+			};
+			name = Debug;
+		};
+		B30FF6BF25C92A6D00A0538D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S72MW545H;
+				INFOPLIST_FILE = TTSBackPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyk.TTSBackPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSBackPlayer.app/TTSBackPlayer";
+			};
+			name = Release;
+		};
+		B30FF6C125C92A6D00A0538D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S72MW545H;
+				INFOPLIST_FILE = TTSBackPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyk.TTSBackPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTSBackPlayer;
+			};
+			name = Debug;
+		};
+		B30FF6C225C92A6D00A0538D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S72MW545H;
+				INFOPLIST_FILE = TTSBackPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyk.TTSBackPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTSBackPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30FF68625C92A6B00A0538D /* Build configuration list for PBXProject "TTSBackPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30FF6B825C92A6D00A0538D /* Debug */,
+				B30FF6B925C92A6D00A0538D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30FF6BA25C92A6D00A0538D /* Build configuration list for PBXNativeTarget "TTSBackPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30FF6BB25C92A6D00A0538D /* Debug */,
+				B30FF6BC25C92A6D00A0538D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30FF6BD25C92A6D00A0538D /* Build configuration list for PBXNativeTarget "TTSBackPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30FF6BE25C92A6D00A0538D /* Debug */,
+				B30FF6BF25C92A6D00A0538D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30FF6C025C92A6D00A0538D /* Build configuration list for PBXNativeTarget "TTSBackPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30FF6C125C92A6D00A0538D /* Debug */,
+				B30FF6C225C92A6D00A0538D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B30FF68325C92A6B00A0538D /* Project object */;
+}
