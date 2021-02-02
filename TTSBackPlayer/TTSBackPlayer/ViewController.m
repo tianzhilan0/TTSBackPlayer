@@ -281,6 +281,44 @@
     playingInfoCenter.nowPlayingInfo = playingInfoDict;
 }
 
+#pragma mark - 锁屏按钮交互处理
+- (void)AppDelegateReceiveRemoteEventsNotification:(NSNotification*)noti
+{
+    if (!noti) return;
+    if (!noti.object) return;
+    if (![noti.object isKindOfClass:[UIEvent class]]) return;
+
+    UIEvent *event = (UIEvent *)noti.object;
+    if (event.type == UIEventTypeRemoteControl) {
+        // 根据远程控制事件类型，在播放界面设置播放、暂停、下一个、上一个
+        switch (event.subtype) {
+            case UIEventSubtypeRemoteControlPlay:
+                [self playMusic];
+                break;
+            case UIEventSubtypeRemoteControlPause:
+                [self pauseMusic];
+                break;
+            case UIEventSubtypeRemoteControlNextTrack:
+
+            {
+                AVPlayerItem *playerItem = [AVPlayerItem playerItemWithURL:[NSURL URLWithString:@"http://atyk.jzhunk.xyz/v130/upload/1.mp3"]];
+                [self.player replaceCurrentItemWithPlayerItem:playerItem];
+                [self playMusic];
+            }
+                break;
+            case UIEventSubtypeRemoteControlPreviousTrack:
+            {
+                AVPlayerItem *playerItem = [AVPlayerItem playerItemWithURL:[NSURL URLWithString:@"http://atyk.jzhunk.xyz/v130/upload/1.mp3"]];
+                [self.player replaceCurrentItemWithPlayerItem:playerItem];
+                [self playMusic];
+            }
+                break;
+            default: break;
+        }
+    }
+}
+
+
 #pragma mark - 开始播放音乐
 - (void)playMusic
 {
